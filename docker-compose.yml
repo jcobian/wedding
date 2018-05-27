@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    build:
+        context: ./
+        dockerfile: flask_app_docker_file
+    ports:
+     - "5000:5000"
